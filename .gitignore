@@ -1,0 +1,31 @@
+﻿# Flutter/Dart
+/build/
+/.dart_tool/
+/.packages
+/.pub-cache/
+/.pub/
+/ios/Flutter/Generated.xcconfig
+/android/local.properties
+
+# IDE & OS
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+
+# 重点：排除 Legacy Python 中的大文件与模型
+/legacy_python_ref/model/
+/legacy_python_ref/recordings/
+/legacy_python_ref/static/
+/legacy_python_ref/compile/
+/legacy_python_ref/__pycache__/
+*.pt
+*.task
+*.onnx
+*.tflite
+*.pb
+*.weights
+*.mp4
+*.avi
+*.wav
+*.bin

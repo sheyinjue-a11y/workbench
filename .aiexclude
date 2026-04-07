@@ -1,0 +1,27 @@
+# 1. 排除 Flutter 编译与本地缓存 (极大幅度节省 Token)
+/build/
+/.dart_tool/
+/.idea/
+/.vscode/
+*.iml
+
+# 2. 排除无关的跨平台编译目录 (保留 /android/)
+/ios/
+/web/
+/windows/
+/macos/
+/linux/
+
+# 3. 排除旧项目中的冗余静态资源、前端和重量级二进制文件
+/legacy_python_ref/model/
+/legacy_python_ref/recordings/
+/legacy_python_ref/music/
+/legacy_python_ref/voice/
+/legacy_python_ref/templates/
+/legacy_python_ref/static/
+/legacy_python_ref/compile/
+*.pt
+*.task
+*.avi
+*.wav
+*.mp4

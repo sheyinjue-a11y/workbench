@@ -1,0 +1,44 @@
+name: esp_assistant_v2
+description: ESP32-S3 Smart Assistant
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 网络通信
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+  
+  # WebView
+  webview_flutter: ^4.8.0
+  
+  # ONNX 推理
+  flutter_onnxruntime: ^1.6.3
+  
+  # 图像处理
+  image: ^4.1.3
+  path_provider: ^2.1.5
+  # 权限和语音
+  permission_handler: ^11.4.0
+  flutter_tts: ^3.8.5
+  
+  # UI
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.6.0
+  tflite_flutter: ^0.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/models/
