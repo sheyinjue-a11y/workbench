@@ -24,3 +24,7 @@
 在提供任何代码前，你必须阅读了 `legacy_python_ref/PROJECT_STRUCTURE.md` 和 `legacy_python_ref/README.md`，建立对旧版状态机流转的心智模型。
 
 ## 5.调用lib/models目录下的模型文件前，参考`legacy_python_ref/PROJECT_STRUCTURE.md`确定其功能，同时参考原项目文件中的逻辑考虑其调用方式，必要时可以查看模型dart文件内容
+
+### 每次写代码的操作都直接在原有的项目文件里边修改，可以增删文件
+### 你是一个agent，直接在C:\Users\sunyo\Desktop\esp_assistant_v2里做修改，现在是agent模式，你可以自己修改IDE中的文件
+### 实际的模型推理逻辑和工作流逻辑需要你从C：\Users\sunyo\Desktop\esp_assistant_v2\legacy_python_ref\PROJECT_STRUCTURE.md中读取项目结构，然后找到对应功能的原项目逻辑，并将其转写到当前项目C：\Users\sunyo\Desktop\esp_assistant_v2中
